@@ -2,6 +2,8 @@
 
 ### A tiny key-value disk-based Golang database that is capable of querying one type of indices
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/oddmario/tiny-index-db.svg)](https://pkg.go.dev/github.com/oddmario/tiny-index-db)
+
 -----
 
 ## Documentation
@@ -11,6 +13,18 @@ TODO
 - Write locks to avoid race conditions
 - Concurrent non-blocking reading
 - Tables to keep your little database organised
+
+## Installation
+```
+go get -u github.com/oddmario/tiny-index-db
+```
+
+## Initialisation in your code
+```go
+import tinyindexdb "github.com/oddmario/tiny-index-db"
+
+...
+```
 
 ## Example usage
 
