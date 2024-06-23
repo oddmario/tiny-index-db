@@ -44,7 +44,7 @@ returns:
 
 #### Write/update a record
 ```go
-tinyindexdb.Query("MyTable", "MyRecordIndex", map[string]interface{
+tinyindexdb.Query("MyTable", "MyRecordIndex", map[string]interface{}{
     "name": "mario",
     "message": "i like pianos",
     "timestamp": time.Now().Unix(),
